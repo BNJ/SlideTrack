@@ -1,0 +1,1 @@
+function receiveAPIMessage(e){var i=e.originalEvent.data,n=i.split("_"),s=n[0],a=n.slice(1);"slidechanged"==s&&mktoMunchkinFunction("clickLink",{href:"/slideshare/"+slideshareName+"/page/"+a.join(", ")})}$(function(){$(window).bind("message",receiveAPIMessage)});
