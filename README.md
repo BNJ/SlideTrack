@@ -12,9 +12,11 @@ Update the path to the sidetrack.js file in the code below.
 Update the slideshareName value.  This will be used as part of the simulated click that will show up for tracking.  Don't include spaces.
 Put the following lines into the page's custom head section. 
 
+```HTML
 <script src='https://app.marketo.com/js/public/jquery-latest.min.js' ></script>
 <script src='** PATH TO THE slidetrack.js FILE' ></script>
 <script type="text/javascript"> var slideshareName = "MySlideShareName";</script>
+```
 
 In the body of the page you will have a HTML area with the embed code from SlideShare.  The source (src) url for the iframe will look something like this.
 
